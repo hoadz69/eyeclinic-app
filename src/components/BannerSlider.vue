@@ -9,9 +9,9 @@
 </template>
 
 <script setup>
-import banner1 from '@/assets/banner1.png'
-import banner2 from '@/assets/banner2.png'
-import aboutBanner from '@/assets/aboutBanner.png'
+import banner1 from '@/assets/images/banner1.png'
+import banner2 from '@/assets/images/banner2.png'
+import aboutBanner from '@/assets/images/aboutBanner.png'
 import { ref } from 'vue'
 const banners = [banner1, banner2, aboutBanner]
 const current = ref(0)
